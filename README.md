@@ -2,7 +2,7 @@
 
 A simple and lightweight **Expense Tracker** built with Python.
 
-This project allows users to manage their daily expenses directly from the terminal. Users can add, view, edit, and delete expenses, as well as calculate total spending and analyze expenses by category.
+This project allows users to manage their daily expenses directly from the terminal. Users can add, view, edit, and delete expenses, calculate total spending, and analyze expenses by category.
 
 ---
 
@@ -13,7 +13,7 @@ This project allows users to manage their daily expenses directly from the termi
 * ✏️ Edit existing expenses
 * 🗑️ Delete expenses
 * 💵 Calculate total expenses
-* 📂 Filter expenses by category
+* 📂 View expenses by category
 * 📊 Calculate total spending for a specific category
 * 💾 Automatically save data to a JSON file
 * ⚠️ Handle invalid menu selections and input errors
@@ -36,7 +36,7 @@ No external libraries are required.
 ```text
 expense-tracker/
 │
-├── main.py
+├── expense-tracker.py
 ├── expenses.json
 ├── README.md
 └── .gitignore
@@ -44,12 +44,12 @@ expense-tracker/
 
 ### Files
 
-| File            | Description                    |
-| --------------- | ------------------------------ |
-| `main.py`       | Main application code          |
-| `expenses.json` | Stores expense data            |
-| `README.md`     | Project documentation          |
-| `.gitignore`    | Specifies files ignored by Git |
+| File                 | Description                    |
+| -------------------- | ------------------------------ |
+| `expense-tracker.py` | Main application code          |
+| `expenses.json`      | Stores expense data            |
+| `README.md`          | Project documentation          |
+| `.gitignore`         | Specifies files ignored by Git |
 
 ---
 
@@ -70,7 +70,7 @@ cd expense-tracker
 ### 3. Run the program
 
 ```bash
-python main.py
+python expense-tracker.py
 ```
 
 ---
@@ -114,7 +114,7 @@ Viewing expenses:
 3. Book - 250000.0 - Education
 ```
 
-The program can also calculate the total:
+Calculating total expenses:
 
 ```text
 Total expenses: 360000.0
